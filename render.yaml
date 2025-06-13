@@ -2,7 +2,6 @@ services:
     - type: web
       name: dow30-trading-pwa
       env: python
-      buildCommand: pip install -r requirements.txt && npm install && cd frontend && npm run build
-  && cd ..
+      buildCommand: pip install -r requirements.txt
       startCommand: python backend/app/main.py
       plan: free

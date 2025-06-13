@@ -1,0 +1,9 @@
+{
+    "name": "dow30-trading-pwa",
+    "scripts": {
+      "build": "echo 'Frontend build placeholder'"
+    },
+    "dependencies": {
+      "react": "^18.2.0"
+    }
+  }
